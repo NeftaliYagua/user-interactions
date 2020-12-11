@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelSchema\Interaction;
+namespace LaravelSchema\UserInteractions;
 
-class Interaction
+class UserInteractions
 {
     public function holamundo(String $sName)
     {

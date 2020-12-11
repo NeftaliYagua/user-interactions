@@ -1,5 +1,5 @@
 {
-    "name": "laravel-schema/interaction",
+    "name": "laravel-schema/user-interactions",
     "description": "Laravel Schema Package for interaction",
     "type": "project",
     "license": "MIT",
@@ -12,14 +12,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelSchema\\Interaction\\InteractionServiceProvider"
+                "LaravelSchema\\UserInteractions\\UserInteractionsServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "LaravelSchema\\Interaction\\": "src/"
+            "LaravelSchema\\UserInteractions\\": "src/"
         }
     },
     "minimum-stability": "dev",
